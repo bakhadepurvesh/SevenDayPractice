@@ -2,6 +2,13 @@ package Inheritance;
 
 public class Child extends Parent
 {
+	
+	@Override
+	protected void getProtected() {
+		System.out.println("Hello I am Child ");
+		super.getProtected();
+	}
+
 	//variable 
 	public int id = 23;
 
