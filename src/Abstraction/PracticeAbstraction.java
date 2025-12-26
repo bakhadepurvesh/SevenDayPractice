@@ -6,7 +6,19 @@ public abstract class PracticeAbstraction {
 	
 	public abstract void getName(String name);
 	
+//	static void getStatic() {
+//		System.out.println("Hello I am Static ");
+//	}
 
+//	final void getFinal() {
+//		System.out.println("Hello I am Final ");
+//		getPrivate();
+//	}
+	
+//	private void getPrivate() {
+//		System.out.println("Hello I am Private ");
+//	}
+	
 	public void printCity(String city){
 		System.out.println("City Parent : "+city);
 	}
@@ -23,6 +35,8 @@ public abstract class PracticeAbstraction {
 // abstraction class have a constructor  but not create an object 
 // abstract allow to concrete  methods 
 
+// only concrete -> final,private,static are allowed in the abstract class 
+// final ,static , private -> not-abstract method because they not override 
 
 //Abstract method → private चालत नाही
 //abstract class final नसतो
