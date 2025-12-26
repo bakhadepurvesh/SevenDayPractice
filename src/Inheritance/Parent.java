@@ -2,7 +2,7 @@ package Inheritance;
 
 public class Parent {
 	
-	// variable 
+	 // variable 
 	 public int id = 120;
 	 
 	 public static void getStatic() {

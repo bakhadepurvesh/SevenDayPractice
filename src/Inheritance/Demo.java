@@ -35,6 +35,7 @@ public class Demo {
 				
 // jo class load hona tya class che variable hunting hona
 // jo class constructor aahe tya class che method dis nar
+		
 	}
 	
 }
